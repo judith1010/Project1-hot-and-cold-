@@ -35,6 +35,16 @@ function loc(e){
   }
 }
 
+// messing around with making buttons in js instead of html. Can create the button but need to work on the on click part
+// function color(){
+//   document.getElementById('box').style.backgroundColor = 'red'
+// }
+// b = document.createElement("BUTTON");
+// b.innerHTML = "Click me";
+// document.body.appendChild(b);
+//
+// b.addEventListener("onclick", color())
+
 box.addEventListener("mousemove", loc)
 
 
